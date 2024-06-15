@@ -1,0 +1,28 @@
+---
+title: "Script data analysis"
+author: "Domenic Hög"
+date: "2024-06-15"
+output: html_document
+---
+
+# Laden des Datensatzes und relvanter Packages
+```{r}
+library(haven)
+library(ggplot2)
+library(tidyverse)
+Gambia_df <- read_dta("gambia_wave2_field.dta")
+```
+
+#
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r}
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
